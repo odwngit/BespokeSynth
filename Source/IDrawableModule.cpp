@@ -538,21 +538,21 @@ void IDrawableModule::DrawPatchCables(bool parentMinimized, bool inFront)
 ofColor IDrawableModule::GetColor(ModuleCategory type)
 {
    ofColor color;
-   color.setHsb(0, 0, sBrightness);
-   if (type == kModuleCategory_Note)
-      color.setHsb(sHueNote, sSaturation, sBrightness);
-   if (type == kModuleCategory_Synth)
-      color.setHsb(sHueInstrument, sSaturation, sBrightness);
-   if (type == kModuleCategory_Audio)
-      color.setHsb(sHueAudio, sSaturation, sBrightness);
-   if (type == kModuleCategory_Instrument)
-      color.setHsb(sHueNoteSource, sSaturation, sBrightness);
-   if (type == kModuleCategory_Processor)
-      color.setHsb(170, 100, 255);
-   if (type == kModuleCategory_Modulator)
-      color.setHsb(200, 100, 255);
-   if (type == kModuleCategory_Pulse)
-      color.setHsb(43, sSaturation, sBrightness);
+   color.setHsb(25, 138, 102); // Nice gothic brown
+   // if (type == kModuleCategory_Note)
+   //    color.setHsb(sHueNote, sSaturation, sBrightness);
+   // if (type == kModuleCategory_Synth)
+   //    color.setHsb(sHueInstrument, sSaturation, sBrightness);
+   // if (type == kModuleCategory_Audio)
+   //    color.setHsb(sHueAudio, sSaturation, sBrightness);
+   // if (type == kModuleCategory_Instrument)
+   //    color.setHsb(sHueNoteSource, sSaturation, sBrightness);
+   // if (type == kModuleCategory_Processor)
+   //    color.setHsb(170, 100, 255);
+   // if (type == kModuleCategory_Modulator)
+   //    color.setHsb(200, 100, 255);
+   // if (type == kModuleCategory_Pulse)
+   //    color.setHsb(43, sSaturation, sBrightness);
    return color;
 }
 
