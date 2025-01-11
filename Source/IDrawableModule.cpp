@@ -48,11 +48,11 @@
 #include "Prefab.h"
 
 float IDrawableModule::sHueNote = 27;
-float IDrawableModule::sHueAudio = 135;
-float IDrawableModule::sHueInstrument = 79;
-float IDrawableModule::sHueNoteSource = 240;
-float IDrawableModule::sSaturation = 145;
-float IDrawableModule::sBrightness = 220;
+float IDrawableModule::sHueAudio = 27;
+float IDrawableModule::sHueInstrument = 27;
+float IDrawableModule::sHueNoteSource = 27;
+float IDrawableModule::sSaturation = 100;
+float IDrawableModule::sBrightness = 200;
 
 IDrawableModule::IDrawableModule()
 {
