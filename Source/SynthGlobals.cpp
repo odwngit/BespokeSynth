@@ -103,8 +103,8 @@ void SynthInit()
 
 void LoadGlobalResources()
 {
-   gFont.LoadFont(ofToResourcePath("frabk.ttf"));
-   gFontBold.LoadFont(ofToResourcePath("frabk_m.ttf"));
+   gFont.LoadFont(ofToResourcePath("EBGaramond-Medium.ttf"));
+   gFontBold.LoadFont(ofToResourcePath("EBGaramond-Bold.ttf"));
    gFontFixedWidth.LoadFont(ofToResourcePath("iosevka-type-light.ttf"));
    //gModuleShader.load(ofToResourcePath("shaders/module.vert"), ofToResourcePath("shaders/module.frag"));
 }
