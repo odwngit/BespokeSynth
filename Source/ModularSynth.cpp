@@ -259,9 +259,9 @@ void ModularSynth::Setup(juce::AudioDeviceManager* globalAudioDeviceManager, juc
    sBackgroundLissajousR = UserPrefs.lissajous_r.Get();
    sBackgroundLissajousG = UserPrefs.lissajous_g.Get();
    sBackgroundLissajousB = UserPrefs.lissajous_b.Get();
-   sBackgroundR = UserPrefs.background_r.Get();
-   sBackgroundG = UserPrefs.background_g.Get();
-   sBackgroundB = UserPrefs.background_b.Get();
+   // sBackgroundR = UserPrefs.background_r.Get();
+   // sBackgroundG = UserPrefs.background_g.Get();
+   // sBackgroundB = UserPrefs.background_b.Get();
    sCableAlpha = UserPrefs.cable_alpha.Get();
 
    Time time = Time::getCurrentTime();
